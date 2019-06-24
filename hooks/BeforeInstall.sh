@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo systemctl stop httpd
-rm -rf /var/www/html/*
+sudo systemctl stop nginx
+rm -rf /usr/share/nginx/html/*
